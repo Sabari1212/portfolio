@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+    @apply px-3;
+}
+.bg-primary{
+    /* background:rgb(23, 116, 153); */
+    /* background-color: rgb(230, 25, 97) */
+    background-color: rgb(235, 30, 68)
+}
+.mobile-nav{
+    @apply fixed top-10 left-0  w-full h-1/4;
+    /* background-color: rgb(230, 25, 97) */
+    background-color: rgb(79, 57, 61);
+}
+.mobile-nav   li{
+    @apply w-full text-center border-b-2 h-full
+    
+}
+.bg-secondary{
+    background-color: rgb(9, 66, 102);
+}
+.span-name{
+    color: rgb(235, 30, 68)
+}
+.bg-about{
+    background: rgb(7, 128, 184);
+}
+.project_des
+{
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-about opacity-0 duration-500 hover:opacity-100;
+}
+.span_name{
+    color: rgb(237, 2, 139);
+}
+.button_bg{
+    background-color: rgb(9, 66, 102);
+
+}
+.github-link{
+    @apply font-bold text-white px-3 py-3 hover:border-2 border-white ;
+    background-color: rgb(230, 25, 97);
+}
+.contact-color{
+    color: rgb(235, 30, 68)
+}
