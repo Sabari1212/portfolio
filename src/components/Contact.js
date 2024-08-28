@@ -10,7 +10,7 @@ const Contact = () => {
             <h className='font-bold text-white text-2xl md:text-4xl pt-[50px] border-b-4 border-black w-[120px] md:w-[160px]  '> CONTACT</h>
 
              <p className='font-bold text-white md:text-2xl pb-[20px] pt-5'>If you want to discuss more in detail.please contact me .</p>
-             <p className='font-bold text-white md:text-2xl pb-[20px] py-5 pr-5'><span className='font-bold contact-color'>EMAIL=</span>sabitobi@gmail.com</p>
+             <p className='font-bold text-white md:text-2xl pb-[20px] py-5 pr-5'><span className='font-bold contact-color'>EMAIL=</span>sabitobi32@gmail.com</p>
              <p className='font-bold text-white md:text-2xl pb-[20px]'><span className='font-bold contact-color'>PHONE=</span>9750371420</p>
 
             </div>
