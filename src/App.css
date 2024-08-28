@@ -50,3 +50,7 @@ header ul li{
     color: rgb(41, 17, 30);
 
 }
+html{
+    scroll-behavior:smooth;
+}
+    
