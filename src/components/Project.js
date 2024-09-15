@@ -1,6 +1,6 @@
 import React from 'react'
-import image1 from '../assets/1.png'
-import image2 from '../assets/c1.png'
+import image1 from '../assets/1.jpg'
+import image2 from '../assets/c1.jpg'
 import image3 from '../assets/t1.png'
 
 const Project = () => {
@@ -9,7 +9,7 @@ const Project = () => {
         <div className='w-full  flex  mt-20'>
         <div className='flex  flex-col justify-center'>
         <h1  className=' text-2xl md:text-4xl font-hero text-white mb-5 md: border-b-4 w-[100px] md:w-[140px] border-black'>PROJECT</h1>
-        <p className='text-white font-bold md:text-2xl mb-5'>These are some of my projects.I have build these with React,MERN and CSS.check them out</p>
+        <p className='text-white font-bold md:text-2xl mb-5'>These are some of my projects.Check them out...</p>
             </div>
 
         </div>
@@ -18,10 +18,11 @@ const Project = () => {
             <div className='relative'>
             <img  className=' h-[250px]md: h-[350px]'src={image1}></img>
             <div className='project_des px-5'>
-                <p className='text-center py-10 font-bold md:text-2xl'>Guess the Number" app built using React Js!
-                With this app, users can test their intuition by guessing a secret number.</p>
+                <p className='text-center py-10 font-bold md:text-2xl'>Developed a machine learning model to detect diseases in tea
+ leaves from image data, helping in early detection
+ and prevention.</p>
                 <div className=' flex justify-center'>
-                    <a className='github-link 'href="https://github.com/Sabari1212/Guess_Number">View Project</a>
+                    <a className='github-link 'href="https://github.com/Sabari1212/tea_leaf_disease">View Project</a>
                 </div>
             </div>
 
@@ -29,9 +30,11 @@ const Project = () => {
             <div className='relative' >
             <img   className=' h-[250px]md: h-[350px]' src={image2}></img>
             <div className='project_des px-5'>
-                <p className='text-center py-10 font-bold md:text-2xl' > I just built a React app that dynamically changes colors with the input text. This project was a fun way to dive deeper into React's state management and user interactions.</p>
+                <p className='text-center py-10 font-bold md:text-2xl' >Developed a web-based Student Result Management System to
+ managing and viewing academic results for students and
+ administrators.</p>
                 <div className=' flex justify-center'>
-                    <a className='github-link 'href="https://color-app-nine.vercel.app/">View Project</a>
+                    <a className='github-link 'href="https://github.com/Sabari1212/web.github.io">View Project</a>
                 </div>
 
             </div>
